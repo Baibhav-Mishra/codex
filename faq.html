@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head><link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"></head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+ 
+
+
+  });
+});
+$(document).ready(function(){
+  $("#f").click(function(){
+    $("#p").slideToggle("slow");
+ 
+
+
+  });
+});
+</script>
+<style> 
+
+#panel, #flip, .box, #f, #p {
+  padding: 5px;
+  background-color: #f8c440;
+  border: solid 1px #c3c3c3;
+}
+
+#panel, #p {
+  padding: 10px;
+  display: none;
+}
+.box{
+	background-color: #f8c440;
+}
+.outer{
+	background-color: #000;
+	height: 40%;
+	width: 100%;
+	border-style: solid;
+  border-color: #f8c440;
+}
+p{font-family: 'Roboto', sans-serif; text-align: left;
+font-size:20px}
+</style>
+</head>
+<body bgcolor="black">
+	<h1 style="font-family: 'Roboto', sans-serif; text-align: left; color: #f8c440; text-align: center;">FAQ</h1>
+<div class="outer">
+<p style="color: #f8c440; font-size:20px; ">GENERAL</p><br>
+<div class="box" ;><p>Which Award has lion king won<p><div align="right"><button id = "flip"><p id="bt">&#8711;</p></button></div></div>
+<div id="panel"><p>THE LION KING won six 1998 Tony Awards®: Best Musical, Best Scenic Design (Richard Hudson), Best Costume Design (Julie Taymor), Best Lighting Design (Donald Holder), Best Choreography (Garth Fagan) and Best Direction of a Musical, making Taymor the first woman in theatrical history bestowed with the honor. THE LION KING has also earned more than 70 major arts awards including the 1998 NY Drama Critics Circle Award for Best Musical, the 1999 Grammy® for Best Musical Show Album, the 1999 Evening Standard Award for Theatrical Event of the Year and the 1999 Laurence Olivier Awards for Best Choreography and Best Costume Design.</p></div>
+
+
+
+
+
+
+
+<div class="box" ;><p>Does my child need a minimum age to attend the show<p><div align="right"><button id = "f"><p id="bt">&#8711;</p></button></div></div>
+<div id="p"><p>Disney on Broadway performances are recommended for a general audience. As an advisory to adults who might bring young people, Disney recommends its productions for ages 6 and up. All persons entering the theater, regardless of age, must have a ticket.</p></div>
+</div>
+</body>
+</html>
